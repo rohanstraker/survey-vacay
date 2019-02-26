@@ -1,38 +1,48 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Summer Fun In The Sun</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-     <meta charset="utf-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <!-- <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1"> -->
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-      <link href="css/styles.css" rel="stylesheet" type="text/css">
+     <script src="js/scripts.js"></script>
+       <title>Summer Fun In The Sun</title>
   </head>
     <body>
 
     <h1>Amazing Summer Vaction Survey</h1>
 
-  <div.1 class="container">
-    <form action="">
-        First name:<br>
-        <input type="text" name="firstname" value="">
-        <br>
-        Last name:<br>
-        <input type="text" name="lastname" value="">
-        <br>
-        Location:<br>
-        <input type="text" Location="Location" value="">
-        <br>
-        <!--<form action="/action_page.php">-->
-    <form action="/reservation-add" method="post">
-      <label for="type of vacation">Type Of Vacation</label>
-        <select id="dropdownlist">
-          <option value="Beach">Beach</option>
-          <option value="Museum">Museum</option>
-          <option value="Food">Food</option>
-          <option value="NIght Life">Night Life</option>
+<!--  <div class="container">
+    <div id="name">
+      <form>
+        <div>
+          First name:<br>
+          <input type="text" id="firstname">
+          <br>
+        </div>
+        <div>
+          Last name:<br>
+          <input type="text" id="lastname">
+          <br>
+        </div>
+        <div>
+          Location:<br>
+          <input type="text" id="location">
+          <br>
+        </div>
+          <button type="submit">submit</button>
+      </form>-->
+    </div>
+          <form action=>
+          <form action="/reservation-add" method="post">
+            <br>
+      <label for="type of vacation"><strong>Type Of Vacation</strong></label>
+        <select class="form-control"  id="dropdownlist">
+          <option value=value="1">Beach</option>
+          <option value=value="2">Museum</option>
+          <option value=value="3">Food</option>
+          <option value=value="4">Night Life</option>
         </select>
         <input type="submit">
         </form>
@@ -45,10 +55,13 @@
         <br>
         <br><br>
         <input type="submit">
-
     </form>
-    </form>
-  </div.1>
+    <div id="story">
+      <p>Congradulations: <span class="firstname"></span></p>
+      <p>This is the last name: <span class="lastname"></span></p>
+      <p>This is the location: <span class="location"></span></p>
+    </div>
+  </div>
 
 
 

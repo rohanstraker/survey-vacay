@@ -9,3 +9,7 @@ div.1 {
   padding: 20px;
 
   }
+
+#story {
+  display: none;
+}

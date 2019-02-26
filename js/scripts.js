@@ -1,16 +1,24 @@
 $(document).ready(function() {
+//$("#name form").submit(function(event) {
+ //var firstNameInput = $("input#firstname").val();
+ //var lastNameInput = $("input#lastname").val();
+ //var locationInput= $("input#location").val();
+ var dropdownlist = $("input#dropdownlist").val();
 
-  var name = function(firstName, lastName){
-   return firstName + lastName;
-  }
+ //var exclamationInput = $("input#exclamation").val();
+ //var verbInput = $("input#verb").val();
+ //var nounInput = $("input#noun").val();
 
-  var name = function(firstName, lastName){
-  return parseInt(firstName) + parseInt(lastName);
-  };
+ $(".firstname").text(firstNameInput);
+ $(".lastname").text(lastNameInput);
+ $(".location").text(locationInput);
+ $("#dropdownlist").text(dropDownList);
+// $(".exclamation").text(exclamationInput);
+ //$(".verb").text(verbInput);
+ //$(".noun").text(nounInput);
 
-  $("#name").submit(function() {
-    event.preventDefault();
-   var firstName = $("input#firstName").val();
-   var lastName = $("input#lastName").val();
-   alert(name);
-}
+ $("#story").show();
+
+ event.preventDefault();
+  });
+});
