@@ -5,7 +5,7 @@ $("form#name").submit(function(event) {
  var whereDoYouLiveInput = $("input#wheredoyoulive").val();
  var age = $("input#age").val();
  var gender = $("select#gender").val();
-
+ var
  //var vaca1 = LasVegas
  $(".first-lastname").text(firstLastNameInput);
  $(".wheredoyoulive").text(whereDoYouLiveInput);
