@@ -1,16 +1,15 @@
 $(document).ready(function() {
 $("form#name").submit(function(event) {
- var firstLastNameInput = $("input#first,lastname").val();
+ var firstLastNameInput = $("input#first-lastname").val();
  var gender= $("select#gender").val()
  var whereDoYouLiveInput = $("input#wheredoyoulive").val();
  var age = $("input#age").val();
  var gender = $("select#gender").val();
 
  //var vaca1 = LasVegas
- $(".first,lastname").text(firstLastNameInput);
+ $(".first-lastname").text(firstLastNameInput);
  $(".wheredoyoulive").text(whereDoYouLiveInput);
-
-
+ $(".age").text(age);
 
 if (gender == "male"){
  $("#story").show();
