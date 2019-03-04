@@ -5,7 +5,7 @@ $("form#name").submit(function(event) {
  var whereDoYouLiveInput = $("input#wheredoyoulive").val();
  var age = $("input#age").val();
  var gender = $("select#gender").val();
- var
+ 
  //var vaca1 = LasVegas
  $(".first-lastname").text(firstLastNameInput);
  $(".wheredoyoulive").text(whereDoYouLiveInput);
@@ -16,6 +16,10 @@ if (gender == "male"){
 event.preventDefault();
 } else if (gender == "female"){
 $("#story2").show();
+event.preventDefault();
+}
+} else (gender == "female" && age > 28 ){
+$("#story3").show();
 event.preventDefault();
 }
 
