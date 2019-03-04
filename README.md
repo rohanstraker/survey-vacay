@@ -20,7 +20,8 @@ This Survey will give the user the opportunity to input questions about them sel
 This survey uses some HTML CSS Jscript
 
 ## Known Bugs
-There is no known bugs as of yet but it still needs some tweaking in the JScript
+there is something not working in the way I wrote out
+line 21 in the JScript so its throwing out some bad syntax 
 
 ## Support and contact details
 if you run in to any issues start commenting out the section that is giving you any issues is still giving issues please email personally at rohanstraker@gmail.com
