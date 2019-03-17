@@ -11,14 +11,14 @@ $("form#name").submit(function(event) {
  $(".wheredoyoulive").text(whereDoYouLiveInput);
  $(".age").text(age);
 
-if (gender == "male"){
+if (gender === "male"){
  $("#story").show();
-event.preventDefault();
-} else if (gender == "female"){
+//event.preventDefault();
+} else if (gender === "female"){
 $("#story2").show();
-event.preventDefault();
+//event.preventDefault();
 }
-} else if  (gender == "female" && age > 28 ){
+} else if  (gender === "female" && age > 28 ){
 $("#story3").show();
 event.preventDefault();
 }
