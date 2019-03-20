@@ -18,9 +18,10 @@ if (gender === "male"){
 $("#story2").show();
 //event.preventDefault();
 }
-} else if  (gender === "female" && age > 28 ){
+} else if (gender === "female") && age > 28 ){
 $("#story3").show();
 event.preventDefault();
+//debugger;
 }
 
 //$("#story2").show();
